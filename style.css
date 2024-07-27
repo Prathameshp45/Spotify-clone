@@ -1,0 +1,569 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size:1rem;
+    margin:0;
+    overflow:hidden;
+    background-color: black;
+    color:aliceblue;
+}
+
+.main{
+    display:flex;
+    height:100vh;
+}
+
+.sidebar{
+    width: 410px;
+    border-radius: 1rem;
+    margin:0.75rem;
+   
+}
+
+.main-content{
+    background-color: #121212;
+    height:100%;
+    overflow:auto;
+    flex:1;
+    padding: 0 1.5rem 0 1.5rem;
+    color:aliceblue;
+    border-radius: 1rem;
+    margin-top:1.6rem;
+}
+
+.player{
+    background-color:black;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:72px;
+
+}
+
+.bar{
+    width:410px;
+    height:110px;
+    background-color: #121212;
+    padding:0.5rem , 0.75rem;
+    border-radius: 1rem;
+    display:flex;
+    margin-top: 0.75rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-options{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    line-height: 2.25rem;
+}
+
+.nav-options i{
+    font-size: 1.25rem;
+}
+
+
+.lib{
+    height: 100vh;
+    background-color: #121212;
+    border-radius: 1rem ;
+    margin-top: 1rem;
+   overflow: auto;
+}
+
+.library{
+    width:410px;
+    height: 50px;
+    background-color: #121212;
+    margin-top:0.85rem;
+    display: flex;
+}
+
+.nav-options a{
+    font-size: 1rem;
+}
+
+.home{
+    width:370px;
+    height:40px;
+    text-decoration: none;
+    justify-content: center;
+   padding:0.35rem 0.85rem; 
+}
+
+.search{
+    width:370px;
+    height:40px;
+    padding:0.35rem 0.85rem;
+    margin-top:0.65rem;
+    opacity: 0.6;
+}
+
+.home a{
+    text-decoration: none;
+    color:white;
+    margin:0.95rem;
+    font-weight: 700;
+    
+}
+
+.search a{
+    text-decoration: none;
+    color:white;
+    margin:0.95rem;
+    font-weight: 700;
+
+}
+
+
+.library img{
+    width:1.25rem;
+    height:1.30rem;
+    margin: 1.29rem;
+    opacity: 0.6;
+}
+
+.library a{
+    text-decoration: none;
+    margin:1.30rem;
+    font-size:1rem;
+    color: aliceblue;
+    font-weight: 700;
+    opacity:0.7;
+
+}
+
+.search:hover{
+    opacity:1;
+}
+
+.library a:hover{
+    opacity: 1;
+}
+
+.library img:hover{
+    opacity: 1;
+}
+
+.plus{
+    display: flex;
+    margin-left: 6rem;
+    margin-top: 1.2rem;
+
+}
+
+.right-arrow{
+    display: flex;
+    margin-top: 1.2rem;
+    margin-left: 2.5rem;
+}
+
+.nav{
+    display:flex;
+}
+
+.badge{
+    background-color: #242424;
+    border:none;
+    border-radius: 100px;
+    padding:0.45rem 1rem;
+    margin:0.90rem;
+    margin-right: 0.2rem;
+}
+
+.badge a{
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+    font-size: 0.90rem;
+}
+
+.second-search{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-search{
+    display:flex;
+    margin:1.2rem;
+}
+
+.recent{
+    margin:1rem;
+}
+
+.recent a{
+    text-decoration: none;
+    color:white;
+    margin:0.3rem;
+    font-size: 0.92rem;
+}
+
+
+.rect{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18rem;
+}
+
+
+.liked{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.liked img{
+    width:3rem;
+    height:3rem;
+    margin:1rem;
+    border-radius: 5px;
+}
+
+.list_name{
+    display: flex;
+    flex-direction: column;
+}
+
+.list_name a{
+    text-decoration: none;
+    color:white;    
+    margin-top:1rem;
+    font-weight: 700;
+}
+
+.list_name p{
+text-align: left;
+margin-bottom: 0.5rem;
+font-size: 0.8rem;
+}
+
+.sticky-nav{
+    position: sticky;
+    top:0;
+    width: 100%;
+    height: 3rem;
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#121212;
+    z-index:10;
+}
+
+.badges{
+    background-color:white;
+    border:none;
+    border-radius: 100px;
+    padding:0.45rem 1rem;
+    margin:0.90rem;
+    margin-right: 0.2rem;
+    color: #121212;
+    font-weight: 700;
+}
+
+.badges a{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    font-size: 0.90rem; 
+}
+
+.dark-badge {
+    background-color: black;
+}
+
+.dark-badge a{
+    color: white;
+}
+
+.sticky-nav-icons{
+    margin-left: 0.75rem;
+}
+
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky-nav-options button{
+    margin: 0.75rem;
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+
+@media (max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
+
+.mini-cards{
+    margin: 1rem;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini-card{
+    width: 22rem;
+    height: 1.3rem;
+    padding: 1rem;
+    margin-left: 1rem;
+    border-radius: 0.4rem;
+    background-color:#232323;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.mini-img{
+    width: 15%;
+    height: 3rem;
+    border-radius: 0.3rem;
+    margin-top: -0.8rem;
+    margin-left: -0.8rem ;
+}
+
+.mini-title{
+    margin-left: 1rem;
+    margin-top: -0.1rem;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #232323;
+    width:150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-img{
+    width:100%;
+    border-radius: 0.5rem;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-info{
+    font-size: 0.75rem;
+    opacity: 0.8;
+}
+
+.card-container2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card2{
+    width:150px;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-image{
+    width:100%;
+    border-radius: 50%;
+}
+
+.player{
+    display:flex;
+    justify-content:center;
+    align-content: center;
+}
+
+.album{
+    width:25%;
+   }
+
+.music-player{
+    width:50%;  
+}
+
+.controls{
+    width:25%;
+}
+
+.player-icon{
+    height:1rem;
+    margin-right: 1.75rem;
+    opacity:0.7;
+    margin-top: 1rem;
+}
+
+.player-icon:hover{
+    opacity: 1;
+}
+
+.player-controls{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+}
+
+.playback-bar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar{
+    width:70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height:0.2rem;
+}
+
+.progress-bar::-webkit-slider-thumb{
+    appearance:none;
+    height:1rem;
+    width:1rem;
+    background-color: #1bd760;
+    border-radius:50%;
+    margin-top: -6px;
+}
+
+.album{
+    display: flex;
+}
+
+.album img{
+    width:3.2rem;
+    height:2.7rem;
+    margin-left:2rem;
+    margin-top:1rem;
+}
+
+.album h5{
+    font-weight: 550;
+    margin-top:1.5rem;
+    margin-left:1rem;
+}
+
+.album p{
+    font-size:0.7rem;
+    margin-top:2.8rem;
+    margin-left:-4.8rem;
+}
+
+.album .album-img{
+    width:1.5rem;
+    height:1.5rem;    
+    margin-top: 1.5rem;
+    margin-left:3.8rem;
+}
+
+.album .album-img2{
+    width:1.5rem;
+    height:1.5rem;    
+    margin-top: 1.5rem;
+    margin-left:1.5rem;
+}
+
+.controls{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.control-icon{
+    width:1.5rem;
+    height:1.5rem;
+    justify-content:space-evenly;
+    align-items: center;
+    margin:0.7rem;
+    margin-top:1.3rem;
+}
+
+.controls .ra{
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.controls.ra::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height:0.2rem;
+}
+
+
+.footer-bar{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.company{
+    margin: 1rem;
+    padding: 0.8rem;
+}
+
+.company p{
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+.company-title{
+    font-weight: 700;
+}
+
+.fa-brands{
+    border-radius: 50%;
+    background-color:#242424;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 1rem;
+    padding: 4px;
+}
+
+.footer{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    width:90%;
+    height: 10%;
+    border-top: 1px solid white;
+    opacity: 0.7;
+}
+
+.terms{
+    display: flex;
+}
+
+.terms p{
+    font-size: 0.9rem;
+    opacity: 0.7;
+    font-weight: 500;
+    margin-right: 1.75rem;
+    padding: 0.4rem;
+}
